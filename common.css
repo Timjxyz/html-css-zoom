@@ -26,3 +26,15 @@ a{
 .btn:hover{
     cursor: pointer;
 }
+
+/* Regole usate nel footer */
+.centra{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.centra-col{
+    flex-direction: column; 
+    align-items: center;
+}

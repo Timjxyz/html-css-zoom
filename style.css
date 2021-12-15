@@ -23,8 +23,8 @@ header .fas{
 
 .container{
     margin-top: 50px;
+    margin-bottom: 300px;
     width: 90%;
-    
     margin: auto;
     height: 100vh;
     flex-wrap: wrap;   
@@ -45,3 +45,98 @@ header .fas{
 
  }
 /* Fine regole main */
+
+/* Inizio regole footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center; 
+    min-width: 1000px;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    
+}
+footer .fas{
+    font-size: 24px;
+}
+
+.fas.fa-chevron-up{
+    font-size: 14px;
+}
+
+footer .btn{
+    background-color:transparent;
+    padding: 0;
+    border-radius: 0;
+}
+/* Inizio sezione sinistra del footer */
+.setting-audio{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.setting-audio p{
+    padding-top: 10px;
+}
+
+.mic{     
+    font-size: 18px;  
+    padding: 0 30px;
+
+}
+
+.video{   
+    padding: 0 30px;
+
+}
+/* Fine sezione sinistra del footer */
+
+
+/* Inizio sezione centrale footer */
+
+.general-settings{ 
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.general-settings p{
+    padding-top: 10px;
+}
+
+.btn.centra-col.flex{
+    padding-left: 20px;
+}
+
+.fas.fa-share-square{
+    color: #4bc801;
+}
+/* Fine sezione centrale footer */
+
+
+/* Inizio sezione destra del footer */
+
+.end-call{
+    background:#4a4a4a;
+    align-items: center;
+    justify-content: flex-end;
+    
+    height: 100px;
+}
+#btn-esc{
+    align-items: center;
+    line-height: 100px;
+    color: #f00; 
+}
+
+#btn-esc p{
+    padding: 0 20px;
+}
+/* Fine sezione destra del footer */
+
+/* Fine regole footer */
