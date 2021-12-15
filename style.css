@@ -103,6 +103,7 @@ footer .btn{
     align-items: center;
     width: 60%;
     margin: auto;
+    min-width: 1080px;
 }
 
 .general-settings p{
