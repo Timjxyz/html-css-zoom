@@ -1,10 +1,13 @@
 /* Inizio regole header */
 header{
+    width: 100%;
     height: 50px;
     background-color: #000;
     justify-content: flex-end;
     align-items: center;
     min-width: 1180px;
+    position: fixed;
+    z-index: 9999;
 }
 
 .zoom{
@@ -14,3 +17,31 @@ header .fas{
     font-weight: 600;
 }
 /* Fine regole header */
+
+
+/* Inizio regole main */
+
+.container{
+    margin-top: 50px;
+    width: 90%;
+    
+    margin: auto;
+    height: 100vh;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+    align-items: flex-start;
+}
+ .utente{
+     position: relative;
+ }
+.utente-voce{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    
+}
+ .btn.utente-voce{
+    border-radius: 0;
+
+ }
+/* Fine regole main */
