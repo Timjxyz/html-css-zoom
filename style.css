@@ -8,6 +8,8 @@ header{
     min-width: 1180px;
     position: fixed;
     z-index: 9999;
+    top: 0;
+    left: 0;
 }
 
 .zoom{
@@ -20,19 +22,27 @@ header .fas{
 
 
 /* Inizio regole main */
-
+main{
+   
+}
 .container{
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     width: 90%;
     margin: auto;
-    height: 100vh;
+    height: calc( 100vh - 150px );
+    margin-top: 50px;
+    margin-bottom: 100px;
     flex-wrap: wrap;   
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-end;
+    
 }
  .utente{
+     margin:10px  10px;
+     align-items: center;
      position: relative;
+     
  }
 .utente-voce{
     position: absolute;
@@ -56,7 +66,8 @@ footer{
     min-width: 1000px;
     position: fixed;
     bottom: 0;
-    z-index: 9999;
+    left: 0;
+    
     
 }
 footer .fas{
@@ -127,7 +138,7 @@ footer .btn{
     align-items: center;
     justify-content: flex-end;
     
-    height: 100px;
+    
 }
 #btn-esc{
     align-items: center;
